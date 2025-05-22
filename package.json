@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "preinstall": "npm config delete //registry.npmjs.org/:_authToken",
     "start": "node app.js"
   },
   "dependencies": {
